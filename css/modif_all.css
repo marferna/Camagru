@@ -1,0 +1,101 @@
+.left {
+    display: inline-block;
+    vertical-align: left;
+}
+
+.right {
+    float: right;
+}
+
+.logo {
+    display: inline-block;
+    height: 3vw;
+    width: 3vw;
+}
+
+.camagru {
+    display: inline-block;
+    font-family: Cursive, Helvetica, Arial;
+    font-size: 3vw;
+    color: black;
+}
+
+.button {
+    border-radius: 100rem;
+    padding: 1rem;
+    font-size: 1.5vw;
+    padding: .5vw 3vw;
+    border: solid 3px transparent;
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(101deg, #FFDC80, #E1306C, #833AB4);
+    background-origin: border-box;
+    background-clip: border-box;
+    box-shadow: 2px 1000px 1px #fff inset;
+}
+
+.button:hover {
+    box-shadow: none;
+    color: white;
+}
+
+.modification {
+    text-align: center;
+    font-family: Calibri, Arial;
+    font-size: 1.5vw;
+}
+
+.form {
+    font-family: Cursive, Arial;
+    font-size: 2vw;
+    text-align: center;
+}
+
+.phrase {
+    text-align: center;
+    font-family: Calibri, Arial;
+    font-size: 1.5vw;
+}
+
+.footer {
+    position: relative;
+    top: 3vw;
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(101deg, #FFDC80, #E1306C, #833AB4);
+    font-family: Cursive, Helvetica, Arial;
+    font-size: 1.5vw;
+    text-align: center;
+    clear: both;
+}
+
+.titre {
+    position: relative;
+    top: -3vw;
+    text-align: left;
+    font-family: Cursive, Helvetica, Arial;
+    font-size: 2vw;
+    color: black;
+}
+
+.sur {
+    text-align: center;
+    font-family: Calibri, Arial;
+    font-size: 1.5vw;
+}
+
+.confirmer {
+    position: relative;
+    top: -1vw;
+    left: 42vw;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Calibri, Arial;
+    font-size: 1.5vw;
+}
+
+.conf {
+    font-size: 2vw;
+}
+
+.phrase {
+    text-align: center;
+    font-family: Calibri, Arial;
+    font-size: 1.2vw;
+}

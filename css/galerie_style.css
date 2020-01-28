@@ -1,0 +1,265 @@
+.left {
+    display: inline-block;
+    vertical-align: left;
+}
+
+.right {
+    float: right;
+}
+
+.logo {
+    display: inline-block;
+    height: 3vw;
+    width: 3vw;
+}
+
+.camagru {
+    display: inline-block;
+    font-family: Cursive, Helvetica, Arial;
+    font-size: 3vw;
+    color: black;
+}
+
+.button {
+    border-radius: 100rem;
+    padding: 1rem;
+    font-size: 1.5vw;
+    padding: .5vw 3vw;
+    border: solid 3px transparent;
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(101deg, #FFDC80, #E1306C, #833AB4);
+    background-origin: border-box;
+    background-clip: border-box;
+    box-shadow: 2px 1000px 1px #fff inset;
+}
+
+.button:hover,
+.button2:hover,
+.but:hover,
+.button3:hover {
+    box-shadow: none;
+    color: white;
+}
+
+.titre {
+    position: relative;
+    top: -2vw;
+    text-align: left;
+    font-family: Cursive, Helvetica, Arial;
+    font-size: 1.9vw;
+    color: black;
+}
+
+#video-canvas {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.hide {
+    display: none;
+}
+
+.buttons-galerie {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.button2 {
+    /* position: relative;
+    left: 13.5vw;
+    top: -10vw; */
+    border-radius: 100rem;
+    font-size: 1vw;
+    padding: .5vw 5vw;
+    border: solid 3px transparent;
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(101deg, #FFDC80, #E1306C, #833AB4);
+    background-origin: border-box;
+    background-clip: border-box;
+    box-shadow: 2px 1000px 1px #fff inset;
+}
+
+.lop {
+    display: inline-block;
+    /* position: relative;
+    left: 3vw;
+    top: -20vw; */
+}
+
+.upload {
+    position: relative;
+    left: 3vw;
+    top: 25vw;
+}
+
+.pan {
+    position: relative;
+    top: -24vw;
+    left: 3vw;
+    font-size: 1.3vw;
+    font-family: Calibri, Helvetica, sans-serif;
+    color: #d93272;
+}
+
+.upl {
+    position: relative;
+    top: -24vw;
+    left: 3vw;
+    font-size: 1.2vw;
+    font-family: Helvetica;
+}
+
+.footer {
+    display: block;
+    margin-top: 30px;
+    margin-bottom: 2px;
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(101deg, #FFDC80, #E1306C, #833AB4);
+    font-family: Cursive, Helvetica, Arial;
+    font-size: 1.5vw;
+    text-align: center;
+    clear: both;
+}
+
+.png-filter {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.img-png {
+    max-width: 10%;
+    height: auto;
+    cursor: pointer;
+}
+
+.button3 {
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: -23px;
+    border-radius: 100rem;
+    font-size: 1vw;
+    padding: .5vw 5vw;
+    border: solid 3px transparent;
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(101deg, #FFDC80, #E1306C, #833AB4);
+    background-origin: border-box;
+    background-clip: border-box;
+    box-shadow: 2px 1000px 1px #fff inset;
+}
+
+.low {
+    text-align: center;
+}
+
+.post {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    box-sizing: border-box;
+    border: thick double black;
+    width: 30vw;
+    height: 25vw;
+}
+
+.page {
+    display: block;
+    text-align: center;
+}
+
+.pagination {
+    margin-top: 5px;
+    font-family: Calibri, Helvetica, sans-serif;
+    font-size: 1.5vw;
+    clear: both;
+    color: #d93272;
+}
+
+.but {
+    display: block;
+    margin: 0px auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(101deg, #FFDC80, #E1306C, #833AB4);
+    font-family: Calibri, Helvetica, sans-serif;
+    font-size: 1.5vw;
+    border-radius: 10px;
+    cursor: pointer;
+    background-origin: border-box;
+    background-clip: border-box;
+    box-shadow: 2px 1000px 1px #fff inset;
+    border-radius: 100rem;
+    padding: .5vw 3vw;
+    border: solid 3px transparent;
+}
+
+.insert_comment {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    box-sizing: border-box;
+    width: 30vw;
+    height: 5vw;
+}
+
+.button_com {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4px;
+}
+
+.in_comment {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -2px;
+    box-sizing: border-box;
+    border: thick double black;
+    background-color: #DCDCDC;
+    font-size: 1.3vw;
+    font-family: Calibri, Helvetica, sans-serif;
+    color: black;
+    width: 30vw;
+    height: 5vw;
+}
+
+.auth {
+    float: left;
+    color: #d93272;
+}
+
+.date {
+    float: right;
+}
+
+.in_like {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -2px;
+    box-sizing: border-box;
+    border: thick double black;
+    background-color: #DCDCDC;
+    font-size: 1.3vw;
+    font-family: Calibri, Helvetica, sans-serif;
+    color: black;
+    width: 30vw;
+    text-align: center;
+}
+
+.like {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -2px;
+    margin-bottom: auto;
+    box-sizing: border-box;
+    border: thick double black;
+    background-color: #DCDCDC;
+    font-size: 1.3vw;
+    font-family: Calibri, Helvetica, sans-serif;
+    color: black;
+    width: 30vw;
+    height: 4vw;
+    text-align: center;
+}

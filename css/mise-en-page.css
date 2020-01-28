@@ -1,0 +1,72 @@
+.left {
+    display: inline-block;
+    vertical-align: left;
+}
+
+.right {
+    float: right;
+}
+
+.logo {
+    display: inline-block;
+    height: 3vw;
+    width: 3vw;
+}
+
+.camagru {
+    display: inline-block;
+    font-family: Cursive, Helvetica, Arial;
+    font-size: 3vw;
+    color: black;
+}
+
+.button {
+    border-radius: 100rem;
+    padding: 1rem;
+    font-size: 1.5vw;
+    padding: .5vw 3vw;
+    border: solid 3px transparent;
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(101deg, #FFDC80, #E1306C, #833AB4);
+    background-origin: border-box;
+    background-clip: border-box;
+    box-shadow: 2px 1000px 1px #fff inset;
+}
+
+.low {
+    text-align: center;
+}
+
+.button:hover {
+    box-shadow: none;
+    color: white;
+}
+
+.titre {
+    position: relative;
+    top: -4vw;
+    text-align: center;
+    font-family: Cursive, Helvetica, Arial;
+    font-size: 3vw;
+    color: black;
+}
+
+.image {
+    position: relative;
+    top: -4vw;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    border: thick double black;
+    width: 45vw;
+    height: 45vw;
+}
+
+.footer {
+    position: relative;
+    top: 0.5vw;
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(101deg, #FFDC80, #E1306C, #833AB4);
+    font-family: Cursive, Helvetica, Arial;
+    font-size: 1.5vw;
+    text-align: center;
+    clear: both;
+}
